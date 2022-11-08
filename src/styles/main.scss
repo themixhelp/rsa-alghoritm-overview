@@ -10,12 +10,12 @@ body {
 	background-color: $dark;
 
 	font-size: $font-size;
-    font-family: 'Ubuntu', sans-serif;
+	font-family: 'Ubuntu', sans-serif;
 }
 
 section {
-    width: 100vw;
-    height: calc(100vh -  2 * ($initial-padding));
+	width: 100vw;
+	height: calc(100vh - 2 * ($initial-padding));
 
 	display: flex;
 	justify-content: center;
@@ -24,7 +24,7 @@ section {
 }
 
 h1 {
-    padding-bottom: .5em;
+	padding-bottom: 0.5em;
 
 	font-size: 6em;
 	font-family: 'VT323', monospace;
