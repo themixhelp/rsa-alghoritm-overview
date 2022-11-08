@@ -1,5 +1,6 @@
-# przydatne linki
-różne materiały pomagające opracować zagadnienie szyfrowania RSA
+# useful links
+
+different resources which are helping with working out the issue of RSA encryption:
 
 - [Jak działa algorytm RSA? Szyfrowanie danych metodą RSA. Krok po kroku! - YouTube @KokoJumbo](https://www.youtube.com/watch?v=SiY9r5rQtUs)
 - [The RSA Encryption Algorithm (1 of 2: Computing an Example) - YouTube @EddieWoo](https://www.youtube.com/watch?v=4zahvcJ9glg)

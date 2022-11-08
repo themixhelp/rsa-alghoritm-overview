@@ -1,8 +1,8 @@
 > z powodów technicznych, dokumentacja jest pisana w języku polskim 🎉
 
-# wprowadzenie
+# itroduction
 
-wstęp do dokumentacji pomagającej opracować zagadnienie szyfrowania RSA 🤔
+introduction to documentaion that helped with working out the issue of RSA encryption🤔
 
-## pliki warte szczególnej uwagi!
-- [useful-links.md](useful-links.md) - zbiór przydatnych materiałów
+## files worth special attention!
+- [useful-links.md](useful-links.md) - collection of useful materials
