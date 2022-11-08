@@ -10,8 +10,8 @@ start reading from file [introduction.md](development-docs/introduction.md), doc
 
 ## how to use? <!-- TODO: CHANGE PORT LATER! -->
 
-`yarn dev` - start project on port `1234`, \ 
-`yarn build` - build project to `/dist` folder, \
+`yarn dev` - start project on port `1234`,\
+`yarn build` - build project to `/dist` folder,\
 `yarn beautify` - format code with prettier, you should use this before every commit!
 
 ## project structure
