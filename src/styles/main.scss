@@ -1,0 +1,31 @@
+@use './utilities/reset.scss';
+@use './utilities/variables.scss' as *;
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&family=VT323&display=swap');
+
+body {
+	padding: $initial-padding;
+
+	color: $light;
+	background-color: $dark;
+
+	font-size: $font-size;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+section {
+    width: 100vw;
+    height: calc(100vh -  2 * ($initial-padding));
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+h1 {
+    padding-bottom: .5em;
+
+	font-size: 6em;
+	font-family: 'VT323', monospace;
+}
