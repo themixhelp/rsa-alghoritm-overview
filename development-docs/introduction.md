@@ -1,4 +1,4 @@
-> z powodów technicznych, dokumentacja jest pisana w języku polskim 🎉
+> ~~z powodów technicznych, dokumentacja jest pisana w języku polskim~~ 🎉
 
 # itroduction
 
