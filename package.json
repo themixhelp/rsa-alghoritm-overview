@@ -1,0 +1,21 @@
+{
+	"name": "parcel-pug-scss-boilerplate",
+
+	"version": "1.0.0",
+	"license": "UNLICENSED",
+
+	"source": "src/index.pug",
+
+	"scripts": {
+		"start": "parcel",
+		"build": "parcel build",
+		"beautify": "prettier --write ."
+	},
+
+	"devDependencies": {
+		"@parcel/transformer-pug": "2.7.0",
+		"@parcel/transformer-sass": "2.7.0",
+		"parcel": "latest",
+		"prettier": "2.7.1"
+	}
+}
