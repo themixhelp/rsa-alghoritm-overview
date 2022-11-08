@@ -2,7 +2,7 @@
 	"name": "rsa-algorithm-overview",
 
 	"version": "1.0.0",
-	"license": "UNLICENSED",
+	"license": "GNU GPL 3.0",
 
 	"source": "src/index.pug",
 
