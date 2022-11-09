@@ -1,0 +1,43 @@
+@use './utilities/reset.scss';
+@use './utilities/variables.scss' as *;
+
+section {
+	width: 100vw;
+    height: 100vh;
+
+    position: relative;
+
+    padding: $initial-padding;
+
+    h2 {
+        padding-bottom: 0.25em;
+	
+		font-size: 4em;
+		font-family: 'VT323', monospace;
+    }
+
+    p {
+        margin: .5em 0;
+
+        font-size: 1.75em;
+    }
+
+    .slides-scroller {
+        width: calc(100vw - 4em);
+
+        position: absolute;
+        bottom: $initial-padding - 1em;
+
+        padding: .5em 0;
+    
+        color: $dark;
+        background-color: $light;
+    
+        border-radius: 8px;
+    
+        font-weight: 400;
+        font-size: 1.5em;
+
+        text-align: center;
+    }
+}
