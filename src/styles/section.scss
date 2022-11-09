@@ -22,6 +22,18 @@ section {
 		font-size: 1.75em;
 	}
 
+	ol {
+		margin-top: .75em;
+		margin-left: 1em;
+
+		font-size: 1.75em;
+
+		li {
+			margin: 0.5em 0;
+			padding-left: .5em;
+		}
+	}
+
 	.slides-scroller {
 		width: calc(100vw - 4em);
 
