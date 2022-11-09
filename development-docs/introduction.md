@@ -1,8 +1,8 @@
 > ~~z powodów technicznych, dokumentacja jest pisana w języku polskim~~ 🎉
 
-# itroduction
+# introduction
 
-introduction to documentaion that helped with working out the issue of RSA encryption🤔
+introduction to documentation that helped with working out the issue of RSA encryption🤔
 
 ## files worth special attention!
 
