@@ -18,3 +18,7 @@ start reading from file [introduction.md](development-docs/introduction.md), doc
 ## project structure
 
 to be continued 🥰
+
+## deploy status
+
+[![netlify status](https://api.netlify.com/api/v1/badges/9cbd80e0-057b-4ddf-bc6c-7bdd26901793/deploy-status)](https://app.netlify.com/sites/beamish-selkie-b5ba2c/deploys)
