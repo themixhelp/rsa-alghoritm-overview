@@ -11,6 +11,8 @@ body {
 
 	font-size: $font-size;
 	font-family: 'Ubuntu', sans-serif;
+
+	overflow: hidden;
 }
 
 section {
@@ -28,4 +30,8 @@ h1 {
 
 	font-size: 6em;
 	font-family: 'VT323', monospace;
+}
+
+.scroller {
+	cursor: pointer;
 }
