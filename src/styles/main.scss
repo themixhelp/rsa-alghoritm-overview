@@ -37,3 +37,9 @@ strong {
 .scroller {
 	cursor: pointer;
 }
+
+@media only screen and (max-width: 1280px) {
+    body {
+		font-size: $font-size-mobile;
+	}
+}
