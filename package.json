@@ -16,6 +16,6 @@
 		"@parcel/transformer-pug": "2.7.0",
 		"@parcel/transformer-sass": "2.7.0",
 		"parcel": "latest",
-		"prettier": "2.7.1"
+		"prettier": "latest"
 	}
 }
