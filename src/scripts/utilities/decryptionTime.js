@@ -1,18 +1,16 @@
 const decryptionTime = {
-	enterTime: Date.now(),
-	crackTime: 1200, // in seconds
-	percentDisplay: document.querySelector('.percent-display'),
-
-	// setEnterTime() { this.enterTime = Date.now() },
+	ENTER_TIME: Date.now(),
+	CRACK_TIME: 1200, // in seconds
+	PERCENT_DISPLAY: document.querySelector('.percent-display'),
 
 	getTimesDiff() {
-		return Math.round((Date.now() - this.enterTime) / 1000)
+		return Math.round((Date.now() - this.ENTER_TIME) / 1000)
 	},
 	calculatePercent() {
-		return Math.round((this.getTimesDiff() / this.crackTime) * 10000) / 100
+		return Math.round((this.getTimesDiff() / this.CRACK_TIME) * 10000) / 100
 	},
 	setTimesDiff() {
-		this.percentDisplay.innerText = `${this.calculatePercent()}%`
+		this.PERCENT_DISPLAY.innerText = `${this.calculatePercent()}%`
 	},
 }
 

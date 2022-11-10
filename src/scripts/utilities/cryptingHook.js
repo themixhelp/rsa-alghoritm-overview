@@ -3,14 +3,14 @@ import { JSEncrypt } from 'jsencrypt'
 const cryptingHook = {
 	JSE: new JSEncrypt({ default_key_size: 128 }),
 
-	publicKey: null,
-	privateKey: null,
+	PUBLIC_KEY: null,
+	PRIVATE_KEY: null,
 
 	generatePublicKey() {
-		this.publicKey = this.JSE.getPublicKey()
+		this.PUBLIC_KEY = this.JSE.getPublicKey()
 	},
 	generatePrivateKey() {
-		this.privateKey = this.JSE.getPrivateKey()
+		this.PRIVATE_KEY = this.JSE.getPrivateKey()
 	},
 
 	initializeKeys() {
