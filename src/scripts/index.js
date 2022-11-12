@@ -30,20 +30,20 @@ setInterval(() => {
 
 cryptingHook.initializeKeys()
 
-GENERATE_PUBLIC.addEventListener('click', () => {
-	typedWrapper.typeText(PUBLIC_KEY, cryptingHook.PUBLIC_KEY)
+GENERATE_PUBLIC.addEventListener('click', (event) => {
+	typedWrapper.typeText(event, PUBLIC_KEY, cryptingHook.PUBLIC_KEY)
 })
-GENERATE_PRIVATE.addEventListener('click', () => {
-	typedWrapper.typeText(PRIVATE_KEY, cryptingHook.PRIVATE_KEY)
+GENERATE_PRIVATE.addEventListener('click', (event) => {
+	typedWrapper.typeText(event, PRIVATE_KEY, cryptingHook.PRIVATE_KEY)
 })
 
-ENCRYPT.addEventListener('click', () => {
+ENCRYPT.addEventListener('click', (event) => {
 	cryptingHook.encryptText(TEXT_TO_ENCRYPT.textContent)
-	typedWrapper.typeText(ENCRYPTED_TEXT_BOX, cryptingHook.ENCRYPTED_TEXT)
+	typedWrapper.typeText(event, ENCRYPTED_TEXT_BOX, cryptingHook.ENCRYPTED_TEXT)
 })
-DECRYPT.addEventListener('click', () => {
+DECRYPT.addEventListener('click', (event) => {
 	cryptingHook.decryptText(cryptingHook.ENCRYPTED_TEXT)
-	typedWrapper.typeText(DECRYPTED_TEXT_BOX, cryptingHook.DECRYPTED_TEXT)
+	typedWrapper.typeText(event, DECRYPTED_TEXT_BOX, cryptingHook.DECRYPTED_TEXT)
 })
 
 // change scrollRestoration

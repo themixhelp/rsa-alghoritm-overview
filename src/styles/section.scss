@@ -68,8 +68,16 @@ section {
 
 		text-align: center;
 
+		transition: opacity 600ms;
+
 		// &:hover {
 		// 	animation: pulse 1000ms;
 		// }
+	}
+
+	.deactive {
+		opacity: 0.5;
+
+		pointer-events: none;
 	}
 }
