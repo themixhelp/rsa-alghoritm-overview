@@ -1,16 +1,16 @@
 import Typed from 'typed.js'
 
 const typedWrapper = {
-    TYPE_SPEED: 1,
+	TYPE_SPEED: 1,
 
-    typeText(element, text) {
-        const CONFIG = {
-            typeSpeed: this.TYPE_SPEED,
-            strings: [ text ]
-        }
+	typeText(element, text) {
+		const CONFIG = {
+			typeSpeed: this.TYPE_SPEED,
+			strings: [text],
+		}
 
-        new Typed(element, CONFIG)
-    }
+		new Typed(element, CONFIG)
+	},
 }
 
 export { typedWrapper }
