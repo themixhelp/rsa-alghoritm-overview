@@ -34,16 +34,16 @@ GENERATE_PUBLIC.addEventListener('click', () => {
 	typedWrapper.typeText(PUBLIC_KEY, cryptingHook.PUBLIC_KEY)
 })
 GENERATE_PRIVATE.addEventListener('click', () => {
-	PRIVATE_KEY.innerText = cryptingHook.PRIVATE_KEY
+	typedWrapper.typeText(PRIVATE_KEY, cryptingHook.PRIVATE_KEY)
 })
 
 ENCRYPT.addEventListener('click', () => {
 	cryptingHook.encryptText(TEXT_TO_ENCRYPT.textContent)
-	ENCRYPTED_TEXT_BOX.innerText = cryptingHook.ENCRYPTED_TEXT
+	typedWrapper.typeText(ENCRYPTED_TEXT_BOX, cryptingHook.ENCRYPTED_TEXT)
 })
 DECRYPT.addEventListener('click', () => {
 	cryptingHook.decryptText(cryptingHook.ENCRYPTED_TEXT)
-	DECRYPTED_TEXT_BOX.innerText = cryptingHook.DECRYPTED_TEXT
+	typedWrapper.typeText(DECRYPTED_TEXT_BOX, cryptingHook.DECRYPTED_TEXT)
 })
 
 // change scrollRestoration

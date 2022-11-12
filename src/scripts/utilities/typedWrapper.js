@@ -1,7 +1,7 @@
 import Typed from 'typed.js'
 
 const typedWrapper = {
-    TYPE_SPEED: 10,
+    TYPE_SPEED: 1,
 
     typeText(element, text) {
         const CONFIG = {
