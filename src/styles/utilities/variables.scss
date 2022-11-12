@@ -4,6 +4,9 @@
 $light: #e0d9f6;
 $dark: #2a2356;
 
+// $light: #e1dfe5;
+// $dark: #202020;
+
 // other properties
 
 $font-size: 20px;
@@ -18,7 +21,7 @@ $initial-padding: 3em;
 	}
 
 	50% {
-		box-shadow: 0 0 0 ($initial-padding / 8) rgba($light, 0);
+		box-shadow: 0 0 0 calc($initial-padding / 8) rgba($light, 0);
 	}
 
 	100% {
