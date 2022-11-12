@@ -41,7 +41,10 @@ section {
 	}
 
 	.key {
-		font-size: 0.8em;
+		display: inline;
+
+		font-size: 1em;
+		font-family: 'Ubuntu Mono', monospace;
 	}
 
 	.slides-scroller {
