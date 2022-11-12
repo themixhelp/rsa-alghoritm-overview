@@ -45,6 +45,9 @@ section {
 
 		font-size: 1em;
 		font-family: 'Ubuntu Mono', monospace;
+
+		white-space: pre-wrap;
+    	word-wrap: break-word;
 	}
 
 	.slides-scroller {
