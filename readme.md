@@ -9,7 +9,7 @@ in order to organize and orient the knowledge concerning the issue of **RSA encr
 start reading from file [introduction.md](development-docs/introduction.md), documentation folder is available [here](development-docs) ✅ 
 <!-- TODO: ADD TECH DOCS -->
 
-## how to use? <!-- TODO: CHANGE PORT LATER! -->
+## how to use? 
 
 `yarn dev` - start project on port `1234`,\
 `yarn build` - build project to `/dist` folder,\
@@ -18,6 +18,10 @@ start reading from file [introduction.md](development-docs/introduction.md), doc
 ## project structure
 
 to be continued 🥰
+
+## figma design
+
+but we are not proud of it.... [click here](https://www.figma.com/file/UDKk7kxrVouoifMgOSzQ7i/landing-page?node-id=0%3A1)
 
 ## deploy status
 
