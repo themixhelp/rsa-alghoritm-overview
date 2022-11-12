@@ -1,6 +1,7 @@
 import { scrollToNextSlide } from './utilities/scrollToNextSlide.js'
 import { decryptionTime } from './utilities/decryptionTime.js'
 import { cryptingHook } from './utilities/cryptingHook.js'
+import { typedWrapper } from './utilities/typedWrapper.js'
 
 const SCROLLERS = document.querySelectorAll('.scroller')
 
@@ -30,7 +31,7 @@ setInterval(() => {
 cryptingHook.initializeKeys()
 
 GENERATE_PUBLIC.addEventListener('click', () => {
-	PUBLIC_KEY.innerText = cryptingHook.PUBLIC_KEY
+	typedWrapper.typeText(PUBLIC_KEY, cryptingHook.PUBLIC_KEY)
 })
 GENERATE_PRIVATE.addEventListener('click', () => {
 	PRIVATE_KEY.innerText = cryptingHook.PRIVATE_KEY
