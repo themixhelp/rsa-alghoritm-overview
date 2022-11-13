@@ -20,8 +20,16 @@ strong {
 	color: $highlight; // ? should it stay as it's now?
 
 	font-weight: 700;
+}
 
-	cursor: pointer; // ! a litle bit confusing
+.button {
+	cursor: pointer; 
+
+	transition: text-shadow 300ms;
+
+	&:hover {
+		text-shadow: 0 0 .75em $highlight;
+	}
 }
 
 .landing {
