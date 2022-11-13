@@ -31,6 +31,9 @@ strong {
 	h1 {
 		padding-bottom: 0.25em;
 
+		color: #f6f54d; // neon
+		text-shadow: 0 -40px 100px, 0 0 2px, 0 0 0.2em #f6f54d, 0 0 1em #f6f54d, 0 0 0.1em #f6f54d, 0 10px 2px #000;
+
 		font-size: 8em;
 		font-family: 'VT323', monospace;
 	}
