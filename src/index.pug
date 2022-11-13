@@ -1,31 +1,21 @@
-doctype html
-html(lang="pl")
-    head
-        meta(charset="UTF-8")
+extends ./layout.pug
 
-        meta(http-equiv="X-UA-Compatible", content="IE=edge")
-        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+block title 
 
-        title Kochajmy RSA!
+    title Kochajmy RSA - Home
 
-        link(rel="stylesheet", href="./styles/main.scss")
+block content 
 
-        link(rel="shortcut icon", href="./assets/favicon.webp", type="image/x-icon")
+    include ./views/landing.pug
 
-    body
+    include ./views/sections/why-we-should-use-rsa.pug
+    include ./views/sections/example-of-rsa-in-use.pug
+    include ./views/sections/rsa-algorithm-structure.pug
 
-        include ./views/landing.pug
+    include ./views/sections/generating-public-key.pug
+    include ./views/sections/generating-private-key.pug
 
-        include ./views/sections/why-we-should-use-rsa.pug
-        include ./views/sections/example-of-rsa-in-use.pug
-        include ./views/sections/rsa-algorithm-structure.pug
+    include ./views/sections/encrypting-data.pug
+    include ./views/sections/decrypting-data.pug
 
-        include ./views/sections/generating-public-key.pug
-        include ./views/sections/generating-private-key.pug
-
-        include ./views/sections/encrypting-data.pug
-        include ./views/sections/decrypting-data.pug
-
-        include ./views/sections/summary.pug
-
-        script(src="./scripts/index.js" type="module" defer) 
+    include ./views/sections/summary.pug
