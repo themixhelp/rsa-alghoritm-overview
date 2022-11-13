@@ -50,6 +50,11 @@ section {
 		word-wrap: break-word;
 	}
 
+	.text-to-encrypt {
+		display: block;
+		font-size: 1.75em;
+	}
+
 	.slides-scroller {
 		width: calc(100vw - 4em);
 
