@@ -3,6 +3,7 @@
 
 $light: #f6f54d;
 $dark: #120f18;
+$highlight: #6ef6ff;
 
 // $light: #e1dfe5;
 // $dark: #202020;
@@ -21,7 +22,7 @@ $initial-padding: 3em;
 	}
 
 	50% {
-		box-shadow: 0 0 0 calc($initial-padding / 8) rgba($light, 0);
+		box-shadow: 0 0 0 calc($initial-padding / 6) rgba($light, 0);
 	}
 
 	100% {

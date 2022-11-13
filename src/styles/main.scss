@@ -17,6 +17,8 @@ body {
 }
 
 strong {
+	color: $highlight; // ? should it stay as it's now?
+
 	font-weight: 700;
 
 	cursor: pointer; // ! a litle bit confusing
@@ -29,10 +31,9 @@ strong {
 	flex-direction: column;
 
 	h1 {
-		padding-bottom: 0.25em;
+		padding-bottom: 0.5em;
 
-		color: #f6f54d; // neon
-		text-shadow: 0 -40px 100px, 0 0 2px, 0 0 0.2em #f6f54d, 0 0 1em #f6f54d, 0 0 0.1em #f6f54d, 0 10px 2px #000;
+		text-shadow: 0 0 1em $light;
 
 		font-size: 8em;
 		font-family: 'VT323', monospace;

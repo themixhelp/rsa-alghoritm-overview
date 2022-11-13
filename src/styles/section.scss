@@ -12,6 +12,8 @@ section {
 	h2 {
 		padding-bottom: 0.25em;
 
+		text-shadow: 0 0 1em $light;
+
 		font-size: 4em;
 		font-family: 'VT323', monospace;
 	}
@@ -78,9 +80,9 @@ section {
 
 		transition: opacity 600ms;
 
-		// &:hover {
-		// 	animation: pulse 1000ms;
-		// }
+		&:hover {
+			animation: pulse 1000ms;
+		}
 	}
 
 	.deactive {
