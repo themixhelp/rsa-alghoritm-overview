@@ -3,7 +3,12 @@ extends ./layout.pug
 block title 
 
     title Kochajmy RSA - Playground
+    
+    link(rel="stylesheet", href="./styles/playground.scss")
 
 block content 
 
     p playground
+
+block scripts 
+    script(src="./scripts/playground.js" type="module" defer) 
