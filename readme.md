@@ -1,6 +1,6 @@
 # rsa-algorithm-overview
 
-an overview of the RSA algorithm as a high-school project ✨
+an overview of the RSA algorithm ✨
 
 ## development documentation
 
